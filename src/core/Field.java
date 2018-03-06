@@ -13,6 +13,7 @@ public class Field {
         this.columnCount = columnCount;
         this.tiles = new Tile[rowCount][columnCount];
 
+        tiles[0][0] = new Fill();
         generate();
     }
 
@@ -59,6 +60,7 @@ public class Field {
 
             sb.format("\n");
         }
+
 
         return sb.toString();
     }

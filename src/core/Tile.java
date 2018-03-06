@@ -13,7 +13,6 @@ public abstract class Tile {
 
     @Override
     public String toString() {
-        return this.state == TileState.FILLED ? "-" : "M";
+        return this.state == TileState.FILL ? "[*] " : "[ ] ";
     }
-
 }

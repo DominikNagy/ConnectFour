@@ -7,5 +7,4 @@ public class Empty extends Tile {
         return (super.getState() == TileState.EMPTY) ?
                 "[ ] " : super.toString();
     }
-
 }
